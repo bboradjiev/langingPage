@@ -1,0 +1,67 @@
+@import "header";
+@import "hero";
+@import "news";
+@import "sex";
+@import "technology";
+@import "sport";
+@import "features";
+@import "footer";
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.main__header,
+.hero,
+.news,
+.sex,
+.technology,
+.sport,
+.features__section,
+.footer {
+  padding: 0 350px;
+}
+
+a, button {
+  text-decoration: none;
+  cursor: pointer;
+  color: $black-color;
+}
+
+.img__two,
+.news__left_article img,
+.sex__small_container img,
+.news__left_article img
+ {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1710px) {
+  .main__header,
+  .hero,
+  .news,
+  .sex,
+  .technology,
+  .sport,
+  .features__section,
+  .footer {
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1710px) {
+  .main__header,
+  .hero,
+  .news,
+  .sex,
+  .technology,
+  .sport,
+  .features__section,
+  .footer {
+    padding: 0 150px;
+  }
+}

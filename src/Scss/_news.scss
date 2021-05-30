@@ -1,0 +1,31 @@
+.news {
+  h1 {
+    padding-top: 10px;
+  }
+}
+.news__container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 50px;
+
+  border-bottom: 4px solid $light-red-color;
+}
+.news__left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .news__left_article {
+    width: 275px;
+    margin: 10px 20px 10px 0;
+  }
+}
+
+.news__right {
+  h3,
+  h4,
+  img,
+  p {
+    padding-top: 10px;
+  }
+}

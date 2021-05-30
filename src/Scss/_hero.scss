@@ -1,0 +1,143 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.hero__top,
+.hero__bottom_section {
+  display: flex;
+  flex-direction: row;
+  padding-top: 48px;
+}
+.hero__bottom_section {
+  border-bottom: 4px solid $light-red-color;
+  padding-bottom: 50px;
+}
+.hero__images {
+  .img__background {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .img__two {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.hero__section_small {
+  margin-top: 100px;
+}
+
+.hero__latest_news {
+  margin-left: 40px;
+
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  .hero__article_box {
+    padding: 30px 0;
+    border-bottom: 2px solid $gray-color;
+
+    :last-child {
+      border: none;
+    }
+  }
+  .hero__article_name {
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 15px;
+    border-left: 5px solid $light-red-color;
+  }
+  .hero__article_author {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+}
+
+.hero__bottom_section {
+  .hero__bottom_left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1020px;
+  }
+
+  .hero__small_article {
+    width: 488px;
+    height: 220px;
+    padding: 70px 54px;
+    margin: 3px;
+    border: 1px solid $gray-color;
+  }
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  .important {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 24px;
+    background-color: $light-red-color;
+    color: $white-color;
+  }
+
+  .hero__small_article_container {
+    border: 1px solid $white-color;
+    padding: 44px 30px;
+  }
+}
+
+.hero__right {
+  position: absolute;
+  right: 0;
+
+  img {
+    width: 550px;
+    height: 450px;
+  }
+}
+
+.read__latest__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  background-color: Transparent;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  height: 35px;
+  border-radius: 5px;
+  float: right;
+}
+
+.read__latest__btn:hover {
+  text-decoration: underline;
+}
+
+.read__more__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  height: 35px;
+  width: 100px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background-color: black;
+  color: $white-color;
+}
