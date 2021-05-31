@@ -27,6 +27,10 @@
   padding: 0 350px;
 }
 
+.hero__top {
+  padding-top: 45px;
+}
+
 a,
 button {
   text-decoration: none;
@@ -53,6 +57,10 @@ button {
   .features__section,
   .footer {
     padding: 0 150px;
+  }
+
+  .hero__top {
+    padding-top: 45px;
   }
 }
 
