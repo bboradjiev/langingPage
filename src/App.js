@@ -10,7 +10,7 @@ import "./Scss/App.scss";
 
 import { useState } from "react";
 function App() {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   return (
     <div className="App">
       <Mainheader toggle={toggle} setToggle={setToggle}/>

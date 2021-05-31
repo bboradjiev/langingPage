@@ -4,6 +4,7 @@
   }
   .sex__big_container {
     display: flex;
+    justify-content: space-between;
     padding-bottom: 50px;
     border-bottom: 4px solid $light-red-color;
   }
@@ -14,5 +15,11 @@
     p {
       padding: 10px;
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sex__big_container {
+    flex-direction: column;
   }
 }

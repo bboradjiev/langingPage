@@ -54,3 +54,17 @@
     border: none;
   }
 }
+
+@media screen and (max-width: 930px) {
+  .footer {
+    flex-direction: column;
+
+    .footer__headline {
+      padding: 0 10px;
+      font-size: 12px;
+    }
+    .header__icons_section {
+      font-size: 12px;
+    }
+  }
+}

@@ -4,7 +4,7 @@ function SportSection() {
   return (
     <section id='sport' className="sport">
       <h1>SPORT</h1>
-      <div className="container">
+      <div className="sport__container">
         <div className="sport__article">
           <img src="icons/SportImgOne.png" alt="pic"></img>
           <h3>Eligendi ut ut.</h3>

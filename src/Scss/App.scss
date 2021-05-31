@@ -15,7 +15,7 @@
 }
 
 .main__header,
-.hero,
+.hero__top,
 .news,
 .sex,
 .technology,
@@ -25,7 +25,8 @@
   padding: 0 350px;
 }
 
-a, button {
+a,
+button {
   text-decoration: none;
   cursor: pointer;
   color: $black-color;
@@ -34,15 +35,15 @@ a, button {
 .img__two,
 .news__left_article img,
 .sex__small_container img,
-.news__left_article img
- {
+.news__left_article img {
   width: 100%;
   height: auto;
 }
 
 @media screen and (max-width: 1710px) {
   .main__header,
-  .hero,
+  .hero__top,
+  .hero__bottom_section,
   .news,
   .sex,
   .technology,
@@ -53,15 +54,18 @@ a, button {
   }
 }
 
-@media screen and (max-width: 1710px) {
-  .main__header,
-  .hero,
+@media screen and (max-width: 1100px) {
+  .main__header {
+    padding: 0 10px;
+  }
+  .hero__top,
+  .hero__bottom_section,
   .news,
   .sex,
   .technology,
   .sport,
   .features__section,
   .footer {
-    padding: 0 150px;
+    padding: 45px 10px;
   }
 }

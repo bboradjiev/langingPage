@@ -6,17 +6,24 @@
   }
 }
 
-.container {
+.features__container {
   display: flex;
-  flex-direction: row;
-
+  justify-content: space-between;
+  flex-wrap: wrap;
   h3,
   p {
     padding-top: 20px;
   }
   .features__article {
-    width: 380px;
+    max-width: 350px;
     margin-right: 38px;
     padding-bottom: 72px;
   }
+}
+
+
+@media screen and (max-width: 500px) {
+  .features__article_img {
+      max-width: 300px;
+    }
 }

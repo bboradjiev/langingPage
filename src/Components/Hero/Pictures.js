@@ -4,10 +4,7 @@ function Pictures() {
   return (
     <div>
       <section className="hero__images">
-        <img
-          className="img__background"
-          src="./icons/redBackground.png"
-          alt="img"></img>
+        <img className="img__background" src="./icons/redBackground.png" alt="img"></img>
         <img className="img__two" src="./icons/redCar.png" alt="img"></img>
       </section>
       <section className='hero__section_small'>

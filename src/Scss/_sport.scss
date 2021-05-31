@@ -1,11 +1,17 @@
 .sport {
   background: $light-gray-color;
+  .sport__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   h1 {
     padding: 80px 0 30px 0;
   }
 
   .sport__article {
-    width: 275px;
+    max-width: 250px;
     margin-right: 40px;
     padding-bottom: 72px;
 
