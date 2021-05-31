@@ -8,7 +8,6 @@ function HeaderSections({ toggle, setToggle }) {
 
   return (
     <nav className={`header__nav_sections ${!toggle ? "" : "inactive"}`}>
-      
       <div className="nav__headlines">
         <div className="header__headline" onClick={() => toggleNavbar()}>
           <a href="#news">

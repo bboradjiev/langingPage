@@ -1,3 +1,4 @@
+
 .footer {
   display: flex;
   align-items: center;
@@ -65,6 +66,14 @@
     }
     .header__icons_section {
       font-size: 12px;
+    }
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .footer {
+    .footer__sections{
+      display: none;
     }
   }
 }

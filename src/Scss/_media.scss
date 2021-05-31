@@ -1,0 +1,29 @@
+@media screen and (max-width: 1710px) {
+    .main__header,
+    .hero__top,
+    .hero__bottom_section,
+    .news,
+    .sex,
+    .technology,
+    .sport,
+    .features__section,
+    .footer {
+      padding: 0 150px;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .main__header {
+      padding: 0 10px;
+    }
+    .hero__top,
+    .hero__bottom_section,
+    .news,
+    .sex,
+    .technology,
+    .sport,
+    .features__section,
+    .footer {
+      padding: 45px 10px;
+    }
+  }

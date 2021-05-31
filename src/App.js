@@ -7,21 +7,24 @@ import SpecialFeaturesSection from "./Components/SpecialFeatures/SpecialFeatures
 import SportSection from "./Components/Sport/SportSection";
 import TechnologySection from "./Components/Technology/TechnologySection";
 import "./Scss/App.scss";
+import Fade from "react-reveal/Fade";
 
 import { useState } from "react";
 function App() {
   const [toggle, setToggle] = useState(true);
   return (
-    <div className="App">
-      <Mainheader toggle={toggle} setToggle={setToggle}/>
-      <HeroSection />
-      <NewsSection />
-      <SexSection />
-      <TechnologySection />
-      <SportSection />
-      <SpecialFeaturesSection />
-      <Footer />
-    </div>
+    <Fade left>
+      <div className="App">
+        <Mainheader toggle={toggle} setToggle={setToggle} />
+        <HeroSection />
+        <NewsSection />
+        <SexSection />
+        <TechnologySection />
+        <SportSection />
+        <SpecialFeaturesSection />
+        <Footer />
+      </div>
+    </Fade>
   );
 }
 

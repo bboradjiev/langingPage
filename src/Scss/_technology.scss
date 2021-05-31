@@ -38,9 +38,9 @@
       flex-direction: column;
     }
     .news__left_article {
-      width: 300px;
+      max-width: 280px;
       img {
-        width: 300px;
+        max-width: 280px;
       }
     }
   }
